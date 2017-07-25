@@ -6,7 +6,6 @@ class Movie():
     def __init__(self, movieTitle, movieStory, posterImage, trailerLink):
         """Initialize movies data with Movie class obzect"""
         self.title = movieTitle
-        self.title = movieTitle
         self.story = movieStory
         self.poster_url = posterImage
         self.trailer_url = trailerLink
