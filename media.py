@@ -1,5 +1,6 @@
 import webbrowser
 
+
 class Movie():
     """Class for movies data"""
     def __init__(self, movieTitle, movieStory, posterImage, trailerLink):
@@ -14,3 +15,4 @@ class Movie():
         """Open the Movie object trailer in the default browser"""
         webbrowser.open(self.trailer)
         
+#EOF
