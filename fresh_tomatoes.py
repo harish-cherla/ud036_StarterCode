@@ -1,6 +1,7 @@
 import webbrowser
 import os
 
+
 def open_movies_page(moviesList):
     """Compose and render the web page"""
     #Get Template
@@ -27,3 +28,5 @@ def open_movies_page(moviesList):
 
     #render in the browser
     webbrowser.open(os.getcwd()+"/trailer.html")
+
+    #EOF
