@@ -13,10 +13,10 @@ def open_movies_page(moviesList):
     viewContent=""
     for movie in moviesList:
         viewContent = viewContent + '''<div class="col-lg-4">
-              <a href="javascript:void(0)" onclick="javascript:loadVideo(\''''+ movie.trailer +'''\')" ><img class="img img-thumbnail" src="'''+ movie.poster +'''" alt="Generic placeholder image" width="250" height="250"></a>
+              <a href="javascript:void(0)" onclick="javascript:loadVideo(\''''+ movie.trailer_url +'''\')" ><img class="img img-thumbnail" src="'''+ movie.poster_url +'''" alt="Generic placeholder image" width="250" height="250"></a>
               <h2>'''+ movie.title +'''</h2>
               <p>'''+ movie.story +'''</p>
-              <p><a class="btn btn-default" href="javascript:void(0)" onclick="javascript:loadVideo(\''''+ movie.trailer +'''\')" role="button">View Trailer</a></p>
+              <p><a class="btn btn-default" href="javascript:void(0)" onclick="javascript:loadVideo(\''''+ movie.trailer_url +'''\')" role="button">View Trailer</a></p>
             </div>'''
 
     #Compose web page
